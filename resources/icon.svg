@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <radialGradient id="rwBg" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0" stop-color="#2A1B0F"/>
+      <stop offset="1" stop-color="#0E0906"/>
+    </radialGradient>
+    <radialGradient id="rwGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFD98A" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFD98A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rwGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2CC70"/>
+      <stop offset="1" stop-color="#A6771B"/>
+    </linearGradient>
+    <linearGradient id="rwSheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+    <clipPath id="rwClip">
+      <rect x="4" y="4" width="40" height="40" rx="10"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#rwClip)">
+    <rect x="4" y="4" width="40" height="40" fill="url(#rwBg)"/>
+    <circle cx="24" cy="23" r="20" fill="url(#rwGlow)"/>
+    <g>
+      <circle cx="24" cy="24" r="16.2" fill="#1B120B" stroke="#4A3418" stroke-width="1"/>
+      <circle cx="24" cy="24" r="14.2" fill="#0B0704" stroke="#7A5A24" stroke-width="0.7"/>
+      <g stroke="#2A1C0E" stroke-width="0.7">
+        <circle cx="24" cy="12.4" r="3.5" fill="#B23A48"/>
+        <circle cx="24" cy="35.6" r="3.5" fill="#B23A48"/>
+        <circle cx="12.4" cy="24" r="3.5" fill="#2F5D9E"/>
+        <circle cx="35.6" cy="24" r="3.5" fill="#2F5D9E"/>
+        <circle cx="15.8" cy="15.8" r="3.2" fill="#2E7D53"/>
+        <circle cx="32.2" cy="15.8" r="3.2" fill="#2E7D53"/>
+        <circle cx="15.8" cy="32.2" r="3.2" fill="#2E7D53"/>
+        <circle cx="32.2" cy="32.2" r="3.2" fill="#2E7D53"/>
+        <circle cx="24" cy="17.4" r="3.0" fill="#E8B750"/>
+        <circle cx="24" cy="30.6" r="3.0" fill="#E8B750"/>
+        <circle cx="17.4" cy="24" r="3.0" fill="#E8B750"/>
+        <circle cx="30.6" cy="24" r="3.0" fill="#E8B750"/>
+      </g>
+      <circle cx="24" cy="24" r="8.4" fill="none" stroke="#7A5A24" stroke-width="0.8"/>
+      <circle cx="24" cy="24" r="5.2" fill="url(#rwGold)" stroke="#3A2A12" stroke-width="0.8"/>
+      <path d="M24 19.4 L26.6 24 L24 28.6 L21.4 24 Z" fill="#FFF3CE" opacity="0.92"/>
+      <path d="M24 24 m-12 0 a12 12 0 0 1 24 0" fill="none" stroke="#FFF2CF" stroke-opacity="0.18" stroke-width="0.7"/>
+    </g>
+    <path d="M4 30 L44 10 L44 22 L4 42 Z" fill="url(#rwSheen)"/>
+    <rect x="4.6" y="4.6" width="38.8" height="38.8" rx="9.4" fill="none" stroke="#FFF2CF" stroke-opacity="0.22"/>
+  </g>
+</svg>

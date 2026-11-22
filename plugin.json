@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
+  "pluginId": "theme-rose-window",
+  "name": "玫瑰窗",
+  "version": "1.0.0",
+  "category": "themes",
+  "categories": [
+    "color-scheme"
+  ],
+  "description": "教堂彩窗主题——午后阳光穿过彩色玫瑰窗，亮色磨砂玻璃面浮在深色石廊之上；金箔/青金石/晚祷紫三组彩窗配色",
+  "author": "Encaron",
+  "icon": "resources/icon.svg",
+  "contributes": {
+    "themes": [
+      {
+        "id": "theme-rose-window.rose-window",
+        "label": "玫瑰窗",
+        "uiTheme": "light",
+        "path": "themes/rose-window.json"
+      }
+    ],
+    "i18n": {
+      "en": "i18n/en.json"
+    }
+  }
+}
