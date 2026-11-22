@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "theme-rose-window",
   "name": "玫瑰窗",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "category": "themes",
   "categories": [
     "color-scheme"
