@@ -4,22 +4,28 @@
     {
       "id": "theme-rose-window",
       "name": "玫瑰窗",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "教堂彩窗主题——午后阳光穿过彩色玫瑰窗，亮色磨砂玻璃面浮在深色石廊之上；金箔/青金石/晚祷紫三组彩窗配色",
       "author": {
         "name": "Encaron"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-rose-window/v1.0.2/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-rose-window/v1.0.3/resources/icon.svg",
       "iconSource": "url",
       "category": "themes",
       "categories": [
         "color-scheme"
       ],
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-rose-window/v1.0.2/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-rose-window/releases/download/v1.0.2/theme-rose-window.linkdesk-plugin",
-      "size": 1050385,
-      "publishedAt": "2026-11-22T18:48:51.409Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-rose-window/v1.0.3/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-rose-window/releases/download/v1.0.3/theme-rose-window.linkdesk-plugin",
+      "size": 1050654,
+      "publishedAt": "2026-11-22T19:12:09.531Z",
       "versions": [
+        {
+          "version": "1.0.3",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-rose-window/releases/download/v1.0.3/theme-rose-window.linkdesk-plugin",
+          "publishedAt": "2026-11-22T19:12:09.531Z",
+          "changelog": "- **文档语义对齐壳 0.2.60**：表面色 = **基色**；跟随主题也按 `glass.opacity` 合成（0.46）。本主题保留 `rgba(...,.46)` 仅作旧壳（≤0.2.59）回退——新壳不依赖它。无视觉变化。\n- 旧「表面色必须 rgba」的偏方已作废；`glass.tintOpacity` 可用于把 tint 厚度与表面 alpha 解耦（本主题未写，缺省 = opacity）。"
+        },
         {
           "version": "1.0.2",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-rose-window/releases/download/v1.0.2/theme-rose-window.linkdesk-plugin",
@@ -41,5 +47,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-22T18:48:51.409Z"
+  "updatedAt": "2026-11-22T19:12:09.531Z"
 }
