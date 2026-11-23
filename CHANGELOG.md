@@ -1,5 +1,10 @@
 # 更新日志
 
+## v1.0.7（2026-11-24）
+
+- **i18n 收口**：命令/设置等 manifest 显示文本补齐英文；宿主按插件命名空间解析显示文本（市场/命令面板/菜单不再自己 t() 插件数据）。
+- **README 多语言**：新增 `docs/readme/en.md`，`plugin.json` 声明 `readme.locales`（zh→README.md，en→docs/readme/en.md）；共享图仍住 `resources/`。
+
 ## v1.0.6（2026-11-23）
 
 - 清理已退役 token：`toggle-knob` / `toggle-knob-on`——2026-11-23 起开关颜色由壳按**有效强调色**派生，主题不再消费这两个键。无视觉变化。

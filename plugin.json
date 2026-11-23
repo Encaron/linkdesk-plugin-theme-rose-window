@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "theme-rose-window",
   "name": "玫瑰窗",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "minAppVersion": "0.2.60",
   "category": "themes",
   "categories": [
@@ -22,6 +22,13 @@
     ],
     "i18n": {
       "en": "i18n/en.json"
+    }
+  },
+  "readme": {
+    "default": "README.md",
+    "locales": {
+      "zh": "README.md",
+      "en": "docs/readme/en.md"
     }
   }
 }

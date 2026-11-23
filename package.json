@@ -1,6 +1,6 @@
 {
   "name": "linkdesk-plugin-theme-rose-window",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": true,
   "type": "module",
   "description": "教堂彩窗主题——亮色磨砂玻璃 + 全窗玫瑰窗背景 + 三组彩窗配色（纯数据插件，无 entry/无编译表面）",
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@linkdesk/marketplace-kit": "^0.1.2",
-    "@linkdesk/plugin-sdk": "^0.1.105",
+    "@linkdesk/plugin-sdk": "^0.1.109",
     "jsonc-parser": "^3.3.1"
   }
 }
